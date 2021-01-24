@@ -55,3 +55,41 @@
   object-fit: cover;
   margin-top: 50px;
 }
+/* section */
+.section{
+  width: 1140px;
+  min-height: 200px;
+  margin: 0 auto;
+  padding: 31px 15px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.main,
+.sidebar{
+  background: #f0f0f0;
+  padding: 40px;
+  min-height: 400px;
+}
+.main{
+  width: 730px;
+}
+.sidebar{
+  width: 350px;
+}
+.section h2{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #4581b7;
+}
+.section p,
+.section a{
+  font-size: 16px;
+  line-height: 27px;
+  color: #7f7f7f7f;
+}
+.section a{
+  margin-top: 45px;
+  display: flex;
+}
